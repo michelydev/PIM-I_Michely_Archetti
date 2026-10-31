@@ -1,0 +1,162 @@
+[
+  {
+    "id": "U001",
+    "idade": 15,
+    "acessos_mes": 14,
+    "tempo_medio_min": 22,
+    "modulos_concluidos": 2,
+    "consentimento": true
+  },
+  {
+    "id": "U002",
+    "idade": 17,
+    "acessos_mes": 11,
+    "tempo_medio_min": 25,
+    "modulos_concluidos": 1,
+    "consentimento": true
+  },
+  {
+    "id": "U003",
+    "idade": 18,
+    "acessos_mes": 16,
+    "tempo_medio_min": 28,
+    "modulos_concluidos": 2,
+    "consentimento": true
+  },
+  {
+    "id": "U004",
+    "idade": 19,
+    "acessos_mes": 18,
+    "tempo_medio_min": 30,
+    "modulos_concluidos": 3,
+    "consentimento": true
+  },
+  {
+    "id": "U005",
+    "idade": 20,
+    "acessos_mes": 15,
+    "tempo_medio_min": 27,
+    "modulos_concluidos": 2,
+    "consentimento": true
+  },
+  {
+    "id": "U006",
+    "idade": 22,
+    "acessos_mes": 17,
+    "tempo_medio_min": 32,
+    "modulos_concluidos": 3,
+    "consentimento": true
+  },
+  {
+    "id": "U007",
+    "idade": 23,
+    "acessos_mes": 20,
+    "tempo_medio_min": 35,
+    "modulos_concluidos": 3,
+    "consentimento": true
+  },
+  {
+    "id": "U008",
+    "idade": 24,
+    "acessos_mes": 19,
+    "tempo_medio_min": 34,
+    "modulos_concluidos": 3,
+    "consentimento": true
+  },
+  {
+    "id": "U009",
+    "idade": 26,
+    "acessos_mes": 22,
+    "tempo_medio_min": 38,
+    "modulos_concluidos": 3,
+    "consentimento": true
+  },
+  {
+    "id": "U010",
+    "idade": 27,
+    "acessos_mes": 18,
+    "tempo_medio_min": 36,
+    "modulos_concluidos": 2,
+    "consentimento": true
+  },
+  {
+    "id": "U011",
+    "idade": 27,
+    "acessos_mes": 24,
+    "tempo_medio_min": 41,
+    "modulos_concluidos": 3,
+    "consentimento": true
+  },
+  {
+    "id": "U012",
+    "idade": 29,
+    "acessos_mes": 21,
+    "tempo_medio_min": 39,
+    "modulos_concluidos": 3,
+    "consentimento": true
+  },
+  {
+    "id": "U013",
+    "idade": 31,
+    "acessos_mes": 19,
+    "tempo_medio_min": 37,
+    "modulos_concluidos": 3,
+    "consentimento": true
+  },
+  {
+    "id": "U014",
+    "idade": 33,
+    "acessos_mes": 17,
+    "tempo_medio_min": 33,
+    "modulos_concluidos": 2,
+    "consentimento": true
+  },
+  {
+    "id": "U015",
+    "idade": 34,
+    "acessos_mes": 15,
+    "tempo_medio_min": 35,
+    "modulos_concluidos": 3,
+    "consentimento": true
+  },
+  {
+    "id": "U016",
+    "idade": 38,
+    "acessos_mes": 12,
+    "tempo_medio_min": 30,
+    "modulos_concluidos": 2,
+    "consentimento": true
+  },
+  {
+    "id": "U017",
+    "idade": 41,
+    "acessos_mes": 10,
+    "tempo_medio_min": 31,
+    "modulos_concluidos": 2,
+    "consentimento": true
+  },
+  {
+    "id": "U018",
+    "idade": 45,
+    "acessos_mes": 9,
+    "tempo_medio_min": 26,
+    "modulos_concluidos": 1,
+    "consentimento": true
+  },
+  {
+    "id": "U019",
+    "idade": 52,
+    "acessos_mes": 6,
+    "tempo_medio_min": 24,
+    "modulos_concluidos": 1,
+    "consentimento": true
+  },
+  {
+    "id": "U020",
+    "idade": 61,
+    "acessos_mes": 5,
+    "tempo_medio_min": 20,
+    "modulos_concluidos": 0,
+    "consentimento": true
+  }
+]
