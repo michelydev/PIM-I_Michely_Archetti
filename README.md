@@ -49,14 +49,14 @@ Este repositório reúne o **programa-protótipo** do projeto. Ele mostra, de fo
 
 **Requisito:** Python 3.8 ou superior. Não é preciso instalar nenhuma biblioteca, pois o programa usa apenas a biblioteca padrão.
 
-```bash
+bash
 # 1. Baixe o repositório
 git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
 cd NOME-DO-REPOSITORIO
 
 # 2. Execute o programa
 python tech_inclusao.py
-```
+
 
 > No Linux ou no macOS, talvez seja necessário usar `python3` no lugar de `python`.
 
@@ -64,13 +64,13 @@ python tech_inclusao.py
 
 O arquivo `usuarios_exemplo.json` traz **20 usuários fictícios**. O programa lê e grava o arquivo `usuarios.json`, então basta copiar o exemplo com esse nome:
 
-```bash
+bash
 # Linux / macOS
 cp usuarios_exemplo.json usuarios.json
 
 # Windows (Prompt de Comando)
 copy usuarios_exemplo.json usuarios.json
-```
+
 
 Depois, execute o programa e escolha a opção **3** para ver as estatísticas.
 
