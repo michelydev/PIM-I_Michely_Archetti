@@ -1,7 +1,8 @@
 # 🌐 Tech Inclusão
+
 ### Educação digital segura para inclusão digital e proteção de dados
 
-Programa em modo console, desenvolvido em Python, que registra usuários fictícios em arquivos JSON e utiliza os dados para gerar estatísticas.
+Programa em modo console, desenvolvido em Python, que registra usuários fictícios em arquivos JSON e utiliza esses dados para gerar estatísticas.
 
 **UNIP – Universidade Paulista**  
 Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas  
@@ -14,15 +15,18 @@ Campus São José dos Campos – SP
 
 A Tech Inclusão é uma ONG fictícia de educação digital, criada como estudo de caso para o Projeto Integrado Multidisciplinar (PIM I). A proposta é promover o ensino de pensamento lógico, programação básica em Python e segurança digital para comunidades em situação de vulnerabilidade e estudantes de escolas públicas.
 
-Este repositório contém o protótipo desenvolvido para representar algumas das funcionalidades da proposta. O programa demonstra como:
+O projeto apresenta um protótipo em Python que permite cadastrar e consultar usuários fictícios, armazenar informações em arquivos JSON e realizar análises estatísticas.
 
-- Representar os dados de um usuário por meio de um dicionário (`dict`);
-- Organizar os registros em uma lista (`list`);
-- Armazenar os dados em arquivos no formato JSON;
-- Realizar cálculos de estatística descritiva;
-- Considerar o consentimento e os princípios de proteção de dados previstos na LGPD.
+Entre os conceitos aplicados estão:
 
-> **Aviso:** todos os dados utilizados no projeto são fictícios. Nenhuma informação de pessoas reais foi coletada. O programa é um protótipo acadêmico e não deve ser utilizado para armazenar dados reais sem a implementação de medidas adicionais de segurança.
+- Utilização de listas e dicionários em Python;
+- Leitura e gravação de arquivos JSON;
+- Estruturas condicionais e de repetição;
+- Validação de dados;
+- Cálculos de estatística descritiva;
+- Princípios de proteção de dados previstos na LGPD.
+
+> **Observação:** todos os dados utilizados são fictícios e destinados exclusivamente à demonstração acadêmica.
 
 ---
 
@@ -30,10 +34,10 @@ Este repositório contém o protótipo desenvolvido para representar algumas das
 
 | Opção | Funcionalidade | Descrição |
 |---|---|---|
-| 1 | Cadastrar usuário | Solicita consentimento e registra idade, acessos, tempo de uso e módulos concluídos. |
-| 2 | Listar usuários | Exibe os registros cadastrados em uma tabela no console. |
-| 3 | Ver estatísticas | Calcula média, mediana, moda, desvio padrão, mínimo e máximo, além da distribuição por faixa etária. |
-| 0 | Sair | Encerra a execução do programa. |
+| 1 | Cadastrar usuário | Solicita consentimento e registra os dados do usuário. |
+| 2 | Listar usuários | Exibe os registros cadastrados no console. |
+| 3 | Ver estatísticas | Apresenta medidas estatísticas e distribuição por faixa etária. |
+| 0 | Sair | Encerra o programa. |
 
 ---
 
@@ -42,20 +46,18 @@ Este repositório contém o protótipo desenvolvido para representar algumas das
 ### Requisitos
 
 - Python 3.8 ou superior;
-- Git instalado para clonar o repositório.
+- Git instalado.
 
 Não é necessário instalar bibliotecas adicionais, pois o programa utiliza recursos da biblioteca padrão do Python.
 
-### Clonagem do repositório
-
-Abra o terminal e execute os comandos:
+### Clonar o repositório
 
 ```bash
 git clone https://github.com/michelydev/PIM-I_Michely_Archetti.git
 cd PIM-I_Michely_Archetti
 ```
 
-### Execução do programa
+### Executar o programa
 
 ```bash
 python tech_inclusao.py
@@ -63,31 +65,31 @@ python tech_inclusao.py
 
 No Linux ou macOS, pode ser necessário utilizar `python3` no lugar de `python`.
 
-### 🧪 Teste com dados de exemplo
+### Testar com dados de exemplo
 
-O arquivo `usuarios_exemplo.json` contém 20 registros fictícios para testar o funcionamento das estatísticas.
+O arquivo `usuarios_exemplo.json` contém 20 registros fictícios para testar as funcionalidades estatísticas.
 
-Para utilizar esses registros, copie o arquivo de exemplo com o nome `usuarios.json`.
+Para utilizá-los, copie o arquivo com o nome `usuarios.json`.
 
-**Linux / macOS:**
-
-```bash
-cp usuarios_exemplo.json usuarios.json
-```
-
-**Windows (Prompt de Comando):**
+**Windows:**
 
 ```cmd
 copy usuarios_exemplo.json usuarios.json
 ```
 
-Depois, execute o programa e selecione a opção 3 para visualizar os resultados estatísticos.
+**Linux ou macOS:**
+
+```bash
+cp usuarios_exemplo.json usuarios.json
+```
+
+Após a cópia, execute o programa e selecione a opção 3 para visualizar as estatísticas.
 
 ---
 
 ## 🖥️ Exemplo de uso
 
-Abaixo está uma representação da saída apresentada pelo programa ao selecionar a opção de estatísticas:
+Exemplo da apresentação das estatísticas no console:
 
 ```text
 === TECH INCLUSÃO ===
@@ -97,37 +99,67 @@ Abaixo está uma representação da saída apresentada pelo programa ao selecion
 0 - Sair
 
 Opção: 3
-
-Idade (anos)
-  média=30.10  mediana=27.00  moda=27
-  desvio padrão=12.19  mín=15  máx=61
-
-Acessos no mês
-  média=15.40  mediana=16.50
-  moda=18, 15, 17, 19
-  desvio padrão=5.21  mín=5  máx=24
-
-Tempo médio (min)
-  média=31.15  mediana=31.50
-  moda=30, 35
-  desvio padrão=5.89  mín=20  máx=41
-
-Participantes por faixa etária:
-  < 18     2  (10.0%)
-  18-25    6  (30.0%)
-  26-35    7  (35.0%)
-  36-45    3  (15.0%)
-  46+      2  (10.0%)
 ```
+
+Os resultados apresentados incluem:
+
+- Média, mediana e moda;
+- Desvio padrão;
+- Valores mínimo e máximo;
+- Distribuição dos participantes por faixa etária.
 
 ---
 
-## 🧠 Como funciona
+## 🧠 Organização do programa
 
-### Fluxo do programa
+O programa utiliza listas e dicionários para organizar os registros dos usuários. Essas estruturas são armazenadas em arquivos JSON, permitindo que os dados sejam recuperados em execuções posteriores.
 
-O funcionamento do programa segue as etapas representadas no fluxograma:
+O módulo `json` é utilizado para converter os dados entre as estruturas do Python e o formato JSON.
 
-```mermaid
-flowchart TD
-    A([Início]) --> B[Carrega usuarios.json
+### Principais funções
+
+| Função | Descrição |
+|---|---|
+| `carregar()` | Carrega os registros armazenados no arquivo JSON. |
+| `salvar()` | Salva os registros no arquivo JSON. |
+| `cadastrar()` | Realiza o cadastro de um usuário. |
+| `listar()` | Apresenta os usuários cadastrados. |
+| `medidas()` | Calcula as medidas estatísticas. |
+| `frequencia_por_faixa()` | Calcula a distribuição por faixa etária. |
+| `estatisticas()` | Apresenta os resultados estatísticos. |
+| `menu()` | Controla as opções do programa. |
+
+---
+
+## 🔐 Privacidade e proteção de dados
+
+O projeto considera princípios da Lei Geral de Proteção de Dados Pessoais (LGPD), como:
+
+- Solicitação de consentimento para o cadastro;
+- Utilização de dados fictícios;
+- Identificação dos registros por códigos;
+- Armazenamento local das informações.
+
+Por se tratar de um protótipo acadêmico, não foram implementados todos os mecanismos de segurança necessários para uma aplicação real.
+
+---
+
+## 📁 Estrutura do repositório
+
+```text
+PIM-I_Michely_Archetti/
+│
+├── tech_inclusao.py
+├── usuarios_exemplo.json
+└── README.md
+```
+
+- `tech_inclusao.py`: código-fonte do programa.
+- `usuarios_exemplo.json`: registros fictícios utilizados nos testes.
+- `README.md`: documentação do projeto.
+
+---
+
+## 👤 Autoria
+
+Projeto desenvolvido individualmente por **Michely Archetti**, estudante do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas da **UNIP (Universidade Paulista)**, campus de São José dos Campos (SP).
