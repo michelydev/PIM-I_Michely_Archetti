@@ -199,17 +199,9 @@ O programa foi pensado com base em princípios da Lei Geral de Proteção de Dad
 - [ ] Exportação de relatórios
 - [ ] Migração para banco de dados, caso o número de usuários cresça
 
----
+## 👤 Autoria
 
-## 👥 Autores
-
-Projeto desenvolvido por estudantes do **Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas** da **UNIP (Universidade Paulista)**, campus de São José dos Campos (SP).
-
-
-- Michely Archetti
-
-
----
+Projeto desenvolvido por **Michely Archetti**, estudante do **Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas** da **UNIP (Universidade Paulista)**, campus de São José dos Campos (SP).
 
 <div align="center">
 
